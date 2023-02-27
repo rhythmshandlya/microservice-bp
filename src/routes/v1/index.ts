@@ -1,5 +1,5 @@
 import express, { Router } from "express";
-import productRoute from "./products.route";
+import searchRoute from "./search.route";
 
 const router = express.Router();
 
@@ -10,8 +10,8 @@ interface IRoute {
 
 const defaultIRoute: IRoute[] = [
   {
-    path: "/products",
-    route: productRoute,
+    path: "/search",
+    route: searchRoute,
   },
 ];
 
