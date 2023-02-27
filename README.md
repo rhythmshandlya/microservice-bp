@@ -446,3 +446,4 @@ Contributions are more than welcome! Please check out the [contributing guide](C
 
 [MIT](LICENSE)
 # product-catalog-service
+# search-service
